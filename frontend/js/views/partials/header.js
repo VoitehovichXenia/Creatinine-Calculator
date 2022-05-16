@@ -7,13 +7,13 @@ class Header extends Component {
         return new Promise(resolve => {
             resolve(`
                  <header class="header">                    
-                     <a class="header__link ${!resource ? 'active' : ''}" href="/#/">
+                     <a class="header__link ${!resource ? 'active' : ''}" href="./#/">
                          About
                      </a>
-                     <a class="header__link ${resource === 'calculator' ? 'active' : ''}" href="/#/calculator">
+                     <a class="header__link ${resource === 'calculator' ? 'active' : ''}" href="./#/calculator">
                          Calculator
                      </a> 
-                     <a class="header__link ${resource === 'doctors' ? 'active' : ''}" href="/#/doctors">
+                     <a class="header__link ${resource === 'doctors' ? 'active' : ''}" href="./#/doctors">
                          Doctors list
                      </a>                                                        
                 </header>
